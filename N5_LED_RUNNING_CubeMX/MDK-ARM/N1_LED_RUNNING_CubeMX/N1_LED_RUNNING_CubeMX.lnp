@@ -1,0 +1,23 @@
+--cpu Cortex-M3
+"n1_led_running_cubemx\startup_stm32f103xb.o"
+"n1_led_running_cubemx\main.o"
+"n1_led_running_cubemx\stm32f1xx_it.o"
+"n1_led_running_cubemx\stm32f1xx_hal_msp.o"
+"n1_led_running_cubemx\stm32f1xx_hal_gpio_ex.o"
+"n1_led_running_cubemx\stm32f1xx_hal_tim.o"
+"n1_led_running_cubemx\stm32f1xx_hal_tim_ex.o"
+"n1_led_running_cubemx\stm32f1xx_hal.o"
+"n1_led_running_cubemx\stm32f1xx_hal_rcc.o"
+"n1_led_running_cubemx\stm32f1xx_hal_rcc_ex.o"
+"n1_led_running_cubemx\stm32f1xx_hal_gpio.o"
+"n1_led_running_cubemx\stm32f1xx_hal_dma.o"
+"n1_led_running_cubemx\stm32f1xx_hal_cortex.o"
+"n1_led_running_cubemx\stm32f1xx_hal_pwr.o"
+"n1_led_running_cubemx\stm32f1xx_hal_flash.o"
+"n1_led_running_cubemx\stm32f1xx_hal_flash_ex.o"
+"n1_led_running_cubemx\stm32f1xx_hal_exti.o"
+"n1_led_running_cubemx\system_stm32f1xx.o"
+--strict --scatter "N1_LED_RUNNING_CubeMX\N1_LED_RUNNING_CubeMX.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "N1_LED_RUNNING_CubeMX.map" -o N1_LED_RUNNING_CubeMX\N1_LED_RUNNING_CubeMX.axf

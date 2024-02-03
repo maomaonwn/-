@@ -1,0 +1,23 @@
+--cpu Cortex-M3
+"n2_servo_pwm_cubemx\startup_stm32f103xb.o"
+"n2_servo_pwm_cubemx\main.o"
+"n2_servo_pwm_cubemx\stm32f1xx_it.o"
+"n2_servo_pwm_cubemx\stm32f1xx_hal_msp.o"
+"n2_servo_pwm_cubemx\stm32f1xx_hal_gpio_ex.o"
+"n2_servo_pwm_cubemx\stm32f1xx_hal_tim.o"
+"n2_servo_pwm_cubemx\stm32f1xx_hal_tim_ex.o"
+"n2_servo_pwm_cubemx\stm32f1xx_hal.o"
+"n2_servo_pwm_cubemx\stm32f1xx_hal_rcc.o"
+"n2_servo_pwm_cubemx\stm32f1xx_hal_rcc_ex.o"
+"n2_servo_pwm_cubemx\stm32f1xx_hal_gpio.o"
+"n2_servo_pwm_cubemx\stm32f1xx_hal_dma.o"
+"n2_servo_pwm_cubemx\stm32f1xx_hal_cortex.o"
+"n2_servo_pwm_cubemx\stm32f1xx_hal_pwr.o"
+"n2_servo_pwm_cubemx\stm32f1xx_hal_flash.o"
+"n2_servo_pwm_cubemx\stm32f1xx_hal_flash_ex.o"
+"n2_servo_pwm_cubemx\stm32f1xx_hal_exti.o"
+"n2_servo_pwm_cubemx\system_stm32f1xx.o"
+--strict --scatter "N2_SERVO_PWM_CubeMX\N2_SERVO_PWM_CubeMX.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "N2_SERVO_PWM_CubeMX.map" -o N2_SERVO_PWM_CubeMX\N2_SERVO_PWM_CubeMX.axf

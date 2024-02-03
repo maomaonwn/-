@@ -1,0 +1,23 @@
+--cpu Cortex-M3
+"n3_timer_update_interrupt_cubemx\startup_stm32f103xb.o"
+"n3_timer_update_interrupt_cubemx\main.o"
+"n3_timer_update_interrupt_cubemx\stm32f1xx_it.o"
+"n3_timer_update_interrupt_cubemx\stm32f1xx_hal_msp.o"
+"n3_timer_update_interrupt_cubemx\stm32f1xx_hal_gpio_ex.o"
+"n3_timer_update_interrupt_cubemx\stm32f1xx_hal_tim.o"
+"n3_timer_update_interrupt_cubemx\stm32f1xx_hal_tim_ex.o"
+"n3_timer_update_interrupt_cubemx\stm32f1xx_hal.o"
+"n3_timer_update_interrupt_cubemx\stm32f1xx_hal_rcc.o"
+"n3_timer_update_interrupt_cubemx\stm32f1xx_hal_rcc_ex.o"
+"n3_timer_update_interrupt_cubemx\stm32f1xx_hal_gpio.o"
+"n3_timer_update_interrupt_cubemx\stm32f1xx_hal_dma.o"
+"n3_timer_update_interrupt_cubemx\stm32f1xx_hal_cortex.o"
+"n3_timer_update_interrupt_cubemx\stm32f1xx_hal_pwr.o"
+"n3_timer_update_interrupt_cubemx\stm32f1xx_hal_flash.o"
+"n3_timer_update_interrupt_cubemx\stm32f1xx_hal_flash_ex.o"
+"n3_timer_update_interrupt_cubemx\stm32f1xx_hal_exti.o"
+"n3_timer_update_interrupt_cubemx\system_stm32f1xx.o"
+--strict --scatter "N3_TIMER_UPDATE_INTERRUPT_CubeMX\N3_TIMER_UPDATE_INTERRUPT_CubeMX.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "N3_TIMER_UPDATE_INTERRUPT_CubeMX.map" -o N3_TIMER_UPDATE_INTERRUPT_CubeMX\N3_TIMER_UPDATE_INTERRUPT_CubeMX.axf

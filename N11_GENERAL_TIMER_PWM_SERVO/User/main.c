@@ -19,10 +19,10 @@ int main(void)
 	{
 		/*修改比较值控制占空比*/
 		__HAL_TIM_SET_COMPARE(&g_timx_pwm_chy_handle,TIM_CHANNEL_2,50);
-		delay_ms(100);
+		HAL_Delay(500);
 		
         __HAL_TIM_SET_COMPARE(&g_timx_pwm_chy_handle,TIM_CHANNEL_2,150);	
-		delay_ms(100);		
+		HAL_Delay(500);	
     }
 }
 

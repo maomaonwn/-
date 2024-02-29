@@ -32,10 +32,10 @@ void HAL_TIM_PWM_MspInit(TIM_HandleTypeDef *htim)
 	if(htim->Instance == TIM3)
 	{
 		GPIO_InitTypeDef gpio_init_struct;
-		__HAL_RCC_GPIOB_CLK_ENABLE();
+		__HAL_RCC_GPIOA_CLK_ENABLE();
 		__HAL_RCC_TIM3_CLK_ENABLE();
 		
-		gpio_init_struct.Pin = GPIO_PIN_5;
+		gpio_init_struct.Pin = GPIO_PIN_7;
 		gpio_init_struct.Mode = GPIO_MODE_AF_PP;
 		gpio_init_struct.Pull = GPIO_PULLUP;
 		gpio_init_struct.Speed = GPIO_SPEED_FREQ_HIGH;
